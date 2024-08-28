@@ -12,4 +12,16 @@
             </button>
         ";
     }
+
+    function btnDefault($label) {
+        return "
+            <button class=\"btn default\">
+                $label
+                <svg viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
+                    <path d=\"M14.1602 6.05957L19.9287 11.8281L14.1602 17.5966\" stroke=\"currentColor\" stroke-width=\"1.4255\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>
+                    <path d=\"M3.77344 11.8281H19.7675\" stroke=\"currentColor\" stroke-width=\"1.4255\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>
+                </svg>
+            </button>
+        ";
+    }
 ?>

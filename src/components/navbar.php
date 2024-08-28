@@ -6,6 +6,7 @@
     </svg>
     <button class="mobile-only">&#9776</button>
     <ul id="nav-items">
+        <!-- TODO: HREFS -->
         <li><a class="<?php echo $activePage == 'home' ? 'nav-highlight' : ''; ?>" href="">Home</a></li>
         <li class="relative">
             <button class="<?php echo $activePage == 'destinasi' ? 'nav-highlight' : ''; ?>" id="nav-dropdown">Destinasi Wisata
@@ -13,8 +14,8 @@
                     <path d="M19.963 9.91064L13.443 16.4306C12.673 17.2006 11.413 17.2006 10.643 16.4306L4.12305 9.91064" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </button>
-
             <ul id="nav-dropdown-items">
+                <!-- TODO: HREFS -->
                 <li><a href="">Camping</a></li>
                 <li><a href="">Jasa Foto</a></li>
                 <li><a href="">Hammocking</a></li>
@@ -23,6 +24,7 @@
                 <li><a href="">Kolam Renang</a></li>
             </ul>
         </li>
+        <!-- TODO: HREFS -->
         <li><a class="<?php echo $activePage == 'lokasi' ? 'nav-highlight' : ''; ?>" href="">Lokasi Wisata</a></li>
     </ul>
     <?php

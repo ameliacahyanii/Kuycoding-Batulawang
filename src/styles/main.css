@@ -27,23 +27,24 @@ svg {
 
 /* ../components/header.php */
 nav {
+    z-index: 10;
     display: flex;
+    position: sticky;
+    top: 0;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--white);
+
 }
 
 nav > svg {
-    height: 4rem;
+    height: 2rem;
 }
 
 #nav-items {
     display: flex;
     gap: 1rem;
-}
-
-.nav-highlight {
-    color: var(--accent);
 }
 
 #nav-items a:hover,
@@ -75,6 +76,7 @@ nav > svg {
     flex-direction: column;
     padding: 1rem;
     border-radius: 4px;
+    background-color: var(--white);
     box-shadow: 0 2px 4px 2px var(--shadow);
 }
 
@@ -88,7 +90,11 @@ nav > svg {
     display: flex;
 }
 
-/* BUTTON COMPONENT */
+.nav-highlight {
+    color: var(--accent)!important;
+}
+
+/* ../components/button.php */
 
 button {
     cursor: pointer;
@@ -99,9 +105,10 @@ button {
     gap: .5rem;
     align-items: center;
     color: var(--white);
-    padding: 1rem;
+    padding: .5rem 1rem;
+    height: fit-content;
     border: none;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
 }
 
 .btn:hover {
@@ -115,6 +122,53 @@ button {
 
 .btn.primary {
     background-color: var(--primary);
+}
+
+.btn.default {
+    background-color: var(--accent);
+}
+
+/* ../components/title-highlight.php */
+.title-highlight {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.highlight-fx {
+    position: absolute;
+    height: .5rem;
+    bottom: 0;
+    left: -1.5%;
+    z-index: 0;
+}
+
+.highlight-desc {
+    position: relative;
+    z-index: 1;
+}
+
+.title-highlight.center {
+    text-align: center;
+    justify-content: center;
+}
+
+/* ../components/newsletter.php */
+section.newsletter {
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    color: var(--secondary);
+}
+
+input.newsletter {
+    padding: .75rem 2rem;
+    height: fit-content;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
 }
 
 /* media queries */
