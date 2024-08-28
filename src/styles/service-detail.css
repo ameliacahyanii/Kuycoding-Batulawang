@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+    --primary: #5C6B28;
+    --secondary: #E7E8A6;
+    --accent: #FFAA33;
+    --black: #141C11;
+    --white: #FCFCFC;
+    --gray: #939393;
+    --shadow: #141c1130;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +17,109 @@
     font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
 }
 
+main {
+    background-image: url(../asset/svg/noise.svg);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    gap: 1rem;
+    color: var(--white);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 8rem;
+    background-position: center;
+    background-image: url(../asset/header-jasa-foto.png);
+}
+
+section {
+    padding: 2rem 4rem;
+    background-color: var(--white);
+    background-image: url(../asset/svg/noise.svg);
+}
+
+section.perks {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--gray);
+}
+
+.service-perks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    user-select: none;
+}
+
+.service-perks.jasa-foto {
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.service-perks.jasa-foto>img {
+    width: 30vw;
+}
+
+.service-perks.jasa-foto>ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: justify;
+    color: var(--primary);
+}
+
+.service-perks>svg {
+    height: 2rem;
+}
+
+.perk-text {
+    color: var(--black);
+}
+
+.perk-desc {
+    color: var(--gray);
+}
+
+.dotted-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: .5rem;
+}
+
+.dotted-list li {
+    list-style: disc;
+}
+
+.bg-tree.jasa-foto {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+section.bg-yellow-hills {
+    padding: 2rem 4rem;
+    padding-top: 12rem;
+    background-color: #E7E8A6;
+    background-repeat: no-repeat;
+    background-image: url(../asset/svg/noise.svg), url(../asset/bg-yellow-hills-1.svg);
+}
+
+section.bg-yellow-hills.alt {
+    background-color: var(--white);
+    background-image: url(../asset/svg/noise.svg), url(../asset/bg-yellow-hills-2.svg);
+}
+
+.image-container {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem 0;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-container img {
+    width: 100%;
+}
