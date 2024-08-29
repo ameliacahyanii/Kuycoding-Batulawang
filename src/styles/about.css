@@ -1,0 +1,22 @@
+:root {
+    --primary: #5C6B28;
+    --secondary: #E7E8A6;
+    --accent: #FFAA33;
+    --black: #141C11;
+    --white: #FCFCFC;
+    --gray: #939393;
+    --shadow: #141c1130;
+}
+
+header {
+    display: flex;
+    gap: 1rem;
+    color: var(--white);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 8rem;
+    background-position: center;
+    background-image: url(../asset/header-tentang-kami.png);
+}
+

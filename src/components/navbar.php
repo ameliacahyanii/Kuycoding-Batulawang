@@ -6,7 +6,6 @@
     </svg>
     <button class="mobile-only">&#9776</button>
     <ul id="nav-items">
-        <!-- TODO: HREFS -->
         <li><a class="<?php echo $activePage == 'home' ? 'nav-highlight' : ''; ?>" href="">Home</a></li>
         <li class="relative">
             <button class="<?php echo $activePage == 'destinasi' ? 'nav-highlight' : ''; ?>" id="nav-dropdown">Destinasi Wisata
@@ -15,9 +14,8 @@
                 </svg>
             </button>
             <ul id="nav-dropdown-items">
-                <!-- TODO: HREFS -->
                 <li><a href="">Camping</a></li>
-                <li><a href="">Jasa Foto</a></li>
+                <li><a href="../../views/service-detail.php">Jasa Foto</a></li>
                 <li><a href="">Hammocking</a></li>
                 <li><a href="">Live Akustik</a></li>
                 <li><a href="">Fun Climbing</a></li>

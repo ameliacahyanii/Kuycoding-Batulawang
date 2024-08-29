@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
     --primary: #5C6B28;
     --secondary: #E7E8A6;
@@ -6,6 +8,17 @@
     --white: #FCFCFC;
     --gray: #939393;
     --shadow: #141c1130;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-image: url(../asset/svg/noise.svg);
 }
 
 a {
