@@ -71,19 +71,19 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./src/asset/destinasi-wisata-camping.png" alt="Camping">
+                    <img src="./src/asset/destinasi-wisata-jasa-foto.png" alt="Jasa Foto">
                     <div class="card-content">
-                        <div class="card-title">CAMPING</div>
-                        <div class="card-desc">Abadikan serunya pengalaman camping dengan keasrian malam hari.</div>
+                        <div class="card-title">JASA FOTO</div>
+                        <div class="card-desc">Abadikan momen liburanmu dengan foto profesional.</div>
                         <?php require_once 'src/components/button.php';
                         echo btnOutline('Jelajahi Kami', '', 'left: 44%'); ?>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./src/asset/destinasi-wisata-camping.png" alt="Camping">
+                    <img src="./src/asset/destinasi-wisata-hammoking.png" alt="Hammocking">
                     <div class="card-content">
-                        <div class="card-title">CAMPING</div>
-                        <div class="card-desc">Abadikan serunya pengalaman camping dengan keasrian malam hari.</div>
+                        <div class="card-title">Hammocking</div>
+                        <div class="card-desc">Nikmati santai di hammock dan abadikan gayamu.</div>
                         <?php require_once 'src/components/button.php';
                         echo btnOutline('Jelajahi Kami', '', 'left: 44%'); ?>
                     </div>
@@ -91,28 +91,28 @@
             </div>
             <div class="destinasi-section">
                 <div class="card">
-                    <img src="./src/asset/destinasi-wisata-camping.png" alt="Camping">
+                    <img src="./src/asset/destinasi-wisata-live.png" alt="Live">
                     <div class="card-content">
-                        <div class="card-title">CAMPING</div>
-                        <div class="card-desc">Abadikan serunya pengalaman camping dengan keasrian malam hari.</div>
+                        <div class="card-title">LIVE AKUSTIK</div>
+                        <div class="card-desc">Rasakan musik akustik live sambil menikmati alam.</div>
                         <?php require_once 'src/components/button.php';
                         echo btnOutline('Jelajahi Kami'); ?>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./src/asset/destinasi-wisata-camping.png" alt="Camping">
+                    <img src="./src/asset/destinasi-wisata-climbing.png" alt="Climbing">
                     <div class="card-content">
-                        <div class="card-title">CAMPING</div>
-                        <div class="card-desc">Abadikan serunya pengalaman camping dengan keasrian malam hari.</div>
+                        <div class="card-title">Climbing</div>
+                        <div class="card-desc">Jangan lewatkan momen seru fun climbing, terekam sempurna.</div>
                         <?php require_once 'src/components/button.php';
                         echo btnOutline('Jelajahi Kami', '', 'left: 44%'); ?>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./src/asset/destinasi-wisata-camping.png" alt="Camping">
+                    <img src="./src/asset/destinasi-wisata-berenang.png" alt="Berennag">
                     <div class="card-content">
-                        <div class="card-title">CAMPING</div>
-                        <div class="card-desc">Abadikan serunya pengalaman camping dengan keasrian malam hari.</div>
+                        <div class="card-title">KOLAM RENANG (ANAK)</div>
+                        <div class="card-desc">Nikmati keseruan liburan bersama anak.</div>
                         <?php require_once 'src/components/button.php';
                         echo btnOutline('Jelajahi Kami', '', 'left: 44%'); ?>
                     </div>
@@ -136,7 +136,7 @@
             <div class="about-content">
                 <div class="top-content">
                     <?php require_once 'src/components/title-highlight.php';
-                    echo fxHighlight('Lokasi', 'TERMUKAN LOKASI PETUALANGANMU', ''); ?>
+                    echo fxHighlight('Lokasi', 'TEMUKAN LOKASI PETUALANGANMU', ''); ?>
                 </div>
                 <div class="paragraph">
                     <P class="desc-about">Jelajahi lokasi-lokasi unik kami untuk petualangan yang tak terlupakan. Setiap
@@ -149,9 +149,44 @@
         </section>
         <!-- End Section Lokasi -->
 
+        <!-- Start Why Choose Us Section -->
+        <section class="chooseus">
+            <div class="header-text">
+                <?php require_once 'src/components/title-highlight.php';
+                echo fxHighlight('Mengapa Memilih Kami?', 'MEMBERIKAN LAYANAN TERBAIK', 'left: 44%'); ?>
+            </div>
+            <div class="chooseus-section">
+                <div class="card-chooseus">
+                    <div class="card-content-chooseus">
+                        <img src="src/asset/svg/icon-headphones.svg" alt="">
+                        <div class="card-title">Pelayanan</div>
+                        <div class="card-desc">Layanan pelanggan terbaik yang responsif dan ramah, siap membantu Anda
+                            merencanakan liburan menjadi sempurna.</div>
+                    </div>
+                </div>
+
+                <div class="card-chooseus">
+                    <div class="card-content-chooseus">
+                        <img src="src/asset/svg/icon-credibility.svg" alt="">
+                        <div class="card-title">Kredibilitas</div>
+                        <div class="card-desc">Percayakan perjalanan Anda karena kami memiliki reputasi yang solid dan testimoni positif dari ribuan wisatawan yang puas.</div>
+                    </div>
+                </div>
+                <div class="card-chooseus">
+                    <div class="card-content-chooseus">
+                        <img src="src/asset/svg/icon-users-group.svg" alt="">
+                        <div class="card-title">Tim Profesional</div>
+                        <div class="card-desc">Dipandu oleh tim ahli yang berpengalaman dan siap menemani perjalanan Anda.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Why Choose Us Section -->
+
     </body>
 
     <?php
+    include 'src/components/newsletter.php';
     include 'src/components/footer.php';
     ?>
 

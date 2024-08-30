@@ -196,7 +196,7 @@
 /* List Destinasi Secttion */
 .destinasi {
     position: relative;
-    margin: 50px; 20px;
+    margin: 50px;
     justify-content: center;
 }
 
@@ -250,6 +250,7 @@
 .card-desc {
     font-size: 16px;
     margin-bottom: 20px;
+    color: var(--white);
 }
 
 .card .btn {
@@ -319,4 +320,154 @@
     line-height: 1.2;
     color: var(--primary);
     padding-bottom: 15px;
+}
+
+
+/* Why choose us section */
+.chooseus {
+    position: relative;
+    margin: 50px;
+    justify-content: center;
+}
+
+.chooseus-section {
+    display: flex;
+    flex-direction: row;
+    background: url(../asset/svg/noise.svg);
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.header-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-chooseus {
+    margin-top: 50px;
+    width: 350px;
+    text-align: center;
+    background-color: var(--accent);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-chooseus:hover {
+    background-color: var(--primary);
+    transition: all ease-in-out .3s;
+}
+
+/* .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: start;
+}
+
+.card-title {
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    padding: 10px 20px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 20px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.card .btn:hover {
+    background-color: var(--primary);
+    align-items: center;
+}
+
+.info-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.content-info-detail {
+    width: 45%;
+} */
+
+
+/* Component Newsletter */
+.newsletter {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+
+.left-content {
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    gap: 0.7rem;
+}
+
+/* .left-content .sub-title {
+    font-size: 20px;
+} */
+
+.left-content .title {
+    /* font-size: 20px; */
+    font-family: 'Rubik';
+}
+
+.right-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+}
+
+.right-content input {
+    padding: 15px 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.right-content .btn {
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.right-content .btn:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.right-content input::placeholder {
+    color: var(--gray);
+    font-size: 1rem;
 }

@@ -14,7 +14,7 @@
                 </svg>
             </button>
             <ul id="nav-dropdown-items">
-                <li><a href="views/service-detail.php">Camping</a></li>
+                <li><a href="views/services.php">Camping</a></li>
                 <li><a href="views/service-detail.php">Jasa Foto</a></li>
                 <li><a href="views/service-detail.php">Hammocking</a></li>
                 <li><a href="views/service-detail.php">Live Akustik</a></li>
