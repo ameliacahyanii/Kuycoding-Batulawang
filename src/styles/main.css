@@ -213,17 +213,18 @@ input.newsletter {
 }
 
 .subheading {
-    font-size: 35px;
+    font-size: 25px;
     color: var(--secondary);
     font-weight: bold;
     margin: 0;
 }
 
 .heading {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     margin: 10px 0 0 0;
     font-family: 'Rubik', sans-serif;
+    max-width: 90%;
 }
 
 .social-icons {
@@ -365,6 +366,7 @@ footer a:hover {
     background-color: var(--white);
     margin: 20px 0;
 }
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {

@@ -30,10 +30,16 @@
             </ul>
         </div>
         <div class="info-item">
-    <h3>Kontak Kami</h3>
-    <p><img src="./src/asset/svg/icon-call.svg" alt="Phone"><a href="tel:+6282129630001">+62 821-2963-0001</a></p>
-    <p><img src="./src/asset/svg/icon-mail.svg" alt="Mail"><a href="tel:+6282129630001">wisatabatulawang.official@gmail.com</a></p>
-</div>
+            <h3>Kontak Kami</h3>
+            <p>
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+6281234567890">+62 8123 4567 890</a>
+            </p>
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@batulawangjaya@gmail.com">info@batulawangjaya@gmail.com</a>
+            </p>
+        </div>
     </div>
     <div class="line"></div>
     <footer>

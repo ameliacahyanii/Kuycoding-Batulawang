@@ -1,0 +1,322 @@
+:root {
+    --primary: #5C6B28;
+    --secondary: #E7E8A6;
+    --accent: #FFAA33;
+    --black: #141C11;
+    --white: #FCFCFC;
+    --gray: #939393;
+    --shadow: #141c1130;
+}
+
+/* Home banner */
+.hero-section {
+    position: relative;
+    background: url('../asset/header-homepage.png');
+    height: fit-content;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+    position: relative;
+    color: var(--white);
+    z-index: 2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.search-bar {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    border-radius: 50px;
+    overflow: hidden;
+    width: 60%;
+    max-width: 500px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    padding: 15px 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-bar input::placeholder {
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.search-bar button {
+    padding: 15px 20px;
+    border: none;
+    background-color: var(--accent);
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar button:hover {
+    background-color: var(--secondary);
+    transition: background-color 0.3s;
+
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 1200px) {
+    .hero-section {
+        padding: 150px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-section {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 20px 0;
+    }
+
+    .search-bar {
+        width: 90%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* About-index.php */
+.about-section {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: var(--secondary);
+    padding: 4rem 4rem;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.image-container img {
+    width: 28vw;
+}
+
+.about-content {
+    padding: 10vh 12vh;
+}
+
+.top-content {
+    padding: 0px 0px 20px 0px;
+}
+
+.top-content .sub-heading-about {
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    color: var(--primary);
+}
+
+.top-content .heading-about {
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    font-size: 45px;
+    color: var(--primary);
+}
+
+.paragraph .desc-about {
+    line-height: 1.2;
+    color: var(--primary);
+    padding-bottom: 15px;
+}
+
+/* List Destinasi Secttion */
+.destinasi {
+    position: relative;
+    margin: 50px; 20px;
+    justify-content: center;
+}
+
+.destinasi-section {
+    display: flex;
+    flex-direction: row;
+    background: url(../asset/svg/noise.svg);
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.header-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card {
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 50px;
+    position: relative;
+    width: 350px;
+    overflow: hidden;
+    text-align: center;
+    color: var(--white);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: start;
+}
+
+.card-title {
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    padding: 10px 20px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 20px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.card .btn:hover {
+    background-color: var(--primary);
+    align-items: center;
+}
+
+.info-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.content-info-detail {
+    width: 45%;
+}
+
+/* Lokasi section */
+.lokasi-section {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    background-color: var(--accent);
+    padding: 4rem 4rem;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.image-container img {
+    width: 28vw;
+}
+
+.about-content {
+    padding: 10vh 12vh;
+}
+
+.top-content {
+    padding: 0px 0px 20px 0px;
+}
+
+.top-content .sub-heading-about {
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    color: var(--primary);
+}
+
+.top-content .heading-about {
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    font-size: 45px;
+    color: var(--primary);
+}
+
+.paragraph .desc-about {
+    line-height: 1.2;
+    color: var(--primary);
+    padding-bottom: 15px;
+}
