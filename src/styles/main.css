@@ -190,6 +190,28 @@ input.newsletter {
     border-radius: 2rem;
 }
 
+/* bg-hills */
+.bg__hills {
+    padding: 2rem 4rem;
+    padding-top: 12rem;
+    background-repeat: no-repeat;
+}
+
+.yellow-hill-top {
+    background-color: var(--secondary);
+    background-image: url(../asset/svg/noise.svg), url(../asset/bg-yellow-hills-1.svg);
+}
+
+.yellow-hill-top-alt {
+    background-repeat: no-repeat;
+    background-image: url(../asset/svg/noise.svg), url(../asset/bg-yellow-hills-3.svg);
+}
+
+.yellow-hill-bottom {
+    background-color: var(--white);
+    background-image: url(../asset/svg/noise.svg), url(../asset/bg-yellow-hills-2.svg);
+}
+
 /* ../components/footer.php */
 .footer-container {
     display: flex;

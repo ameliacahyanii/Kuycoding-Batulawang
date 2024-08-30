@@ -16,7 +16,41 @@ header {
     align-items: center;
     text-align: center;
     padding: 8rem;
-    background-position: center;
-    background-image: url(../asset/header-tentang-kami.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(../asset/bg-yellow-hills-3.svg), url(../asset/header-tentang-kami.png);
 }
 
+section {
+    padding: 2rem 4rem;
+    background-image: url(../asset/svg/noise.svg);
+}
+
+section#wisata-terbaik {
+    background-color: var(--secondary);
+}
+
+.image-container {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem 0;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-container img {
+    width: 100%;
+}
+
+section.bg-yellow-hills.alt {
+    padding-top: 12rem;
+    background-repeat: no-repeat;
+    background-color: var(--white);
+    background-image: url(../asset/svg/noise.svg), url(../asset/bg-yellow-hills-2.svg);
+}
+
+.timeline-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
