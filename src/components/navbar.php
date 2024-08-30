@@ -6,7 +6,7 @@
     </svg>
     <button class="mobile-only">&#9776</button>
     <ul id="nav-items">
-        <li><a class="<?php echo $activePage == 'home' ? 'nav-highlight' : ''; ?>" href="">Home</a></li>
+        <li><a <?php echo $activePage == 'home' ? 'class="nav-highlight" href=""' : 'href=".."'; ?>>Home</a></li>
         <li class="relative">
             <button class="<?php echo $activePage == 'destinasi' ? 'nav-highlight' : ''; ?>" id="nav-dropdown">Destinasi Wisata
                 <svg id="nav-dropdown-arrow" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -14,12 +14,12 @@
                 </svg>
             </button>
             <ul id="nav-dropdown-items">
-                <li><a href="">Camping</a></li>
-                <li><a href="../../views/service-detail.php">Jasa Foto</a></li>
-                <li><a href="">Hammocking</a></li>
-                <li><a href="">Live Akustik</a></li>
-                <li><a href="">Fun Climbing</a></li>
-                <li><a href="">Kolam Renang</a></li>
+                <li><a href="views/service-detail.php">Camping</a></li>
+                <li><a href="views/service-detail.php">Jasa Foto</a></li>
+                <li><a href="views/service-detail.php">Hammocking</a></li>
+                <li><a href="views/service-detail.php">Live Akustik</a></li>
+                <li><a href="views/service-detail.php">Fun Climbing</a></li>
+                <li><a href="views/service-detail.php">Kolam Renang</a></li>
             </ul>
         </li>
         <!-- TODO: HREFS -->
