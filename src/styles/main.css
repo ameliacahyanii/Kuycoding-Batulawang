@@ -141,6 +141,12 @@ button {
     background-color: var(--accent);
 }
 
+.btn.outline {
+    background-color: transparent;
+    border: solid 1px var(--primary);
+    color: var(--primary);
+}
+
 /* ../components/title-highlight.php */
 .title-highlight {
     display: flex;
